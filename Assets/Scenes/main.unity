@@ -389,7 +389,7 @@ RectTransform:
   m_GameObject: {fileID: 324024029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.3, z: 1}
   m_Children:
   - {fileID: 2058144853}
   m_Father: {fileID: 414361126}
@@ -397,7 +397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -140}
+  m_AnchoredPosition: {x: 0, y: -137}
   m_SizeDelta: {x: 777, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324024031
@@ -413,15 +413,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f1cc4c2c42b5b3540b6348557af52505, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 1
@@ -1160,9 +1160,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 750, y: 120}
+  m_AnchorMax: {x: 0.5, y: 0.52000004}
+  m_AnchoredPosition: {x: 0, y: -5.1}
+  m_SizeDelta: {x: 404.9343, y: 113.0889}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058144854
 MonoBehaviour:
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.25451612, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1186,12 +1186,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: dbbdd125095c78149a57a2b6d11211e3, type: 3}
-    m_FontSize: 40
+    m_FontSize: 20
     m_FontStyle: 1
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 46
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1220,9 +1220,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Lyrics:
   - "\u304A\u624B\u4E26\u307F\u62DD\u898B\u5C0F\u30C6\u30B9\u30C8"
-  - "\u898B\u305B\u3066\u307F\u306A\u3055\u3044\uFF77\uFF90\u306E\u30D9\u30B9\u30C8"
+  - "\u898B\u305B\u3066\u307F\u306A\u3055\u3044\u30AD\u30DF\u306E\u30D9\u30B9\u30C8"
   - "\u805E\u304D\u5C4A\u3051\u308B\u306F\u3053\u306E\u62C5\u4EFB"
-  - "\uFF77\uFF90\u3092\u80B2\u3066\u308B\u305D\u306E\u305F\u3081\u306B"
+  - "\u30AD\u30DF\u3092\u80B2\u3066\u308B\u305D\u306E\u305F\u3081\u306B"
   - "\u5BFE\u3059\u308B\u30AD\u30DF\u306F\u4F55\u8005\u3055"
   - "\u805E\u304B\u305B\u3066\u898B\u305B\u306AYour\u30A2\u30F3\u30B5\u30FC"
   - "\u307E\u305A\u306F\u5143\u6C17\u306B\u30EC\u30C3\u30C4\u30C8\u30E9\u30A4"
