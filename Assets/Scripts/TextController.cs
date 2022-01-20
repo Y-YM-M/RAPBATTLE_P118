@@ -23,7 +23,9 @@ public class TextController : MonoBehaviour
 
     void Start()
     {
-        SetLyric();
+        Invoke(nameof(SetLyric), 3.0f);//SetLyric大佐に3秒だけ待ってもらう
+        Debug.Log("ready");
+        //SetLyric();
     }
 
     void Update()
@@ -33,73 +35,73 @@ public class TextController : MonoBehaviour
         {
             SetLyric();
         }
-        if(timer>=3.0f&&bl0==false)
+        if(timer>=5.0f&&bl0==false)
         {
             Debug.Log("textchange");
             bl0=true;
             SetLyric();
         }
-        if(timer>=6.0f&&bl1==false)
+        if(timer>=8.0f&&bl1==false)
         {
             Debug.Log("textchange");
             bl1=true;
             SetLyric();
         }
-        if(timer>=9.0f&&bl2==false)
+        if(timer>=11.0f&&bl2==false)
         {
             Debug.Log("textchange");
             bl2=true;
             SetLyric();
         }
-        if(timer>=12.0f&&bl3==false)
+        if(timer>=14.0f&&bl3==false)
         {
             Debug.Log("textchange");
             bl3=true;
             SetLyric();
         }
-        if(timer>=15.0f&&bl4==false)
+        if(timer>=17.0f&&bl4==false)
         {
             Debug.Log("textchange");
             bl4=true;
             SetLyric();
         }
-        if(timer>=18.0f&&bl5==false)
+        if(timer>=20.0f&&bl5==false)
         {
             Debug.Log("textchange");
             bl5=true;
             SetLyric();
         }
-        if(timer>=21.0f&&bl6==false)
+        if(timer>=23.0f&&bl6==false)
         {
             Debug.Log("textchange");
             bl6=true;
             SetLyric();
         }
-        if(timer>=24.0f&&bl7==false)
+        if(timer>=27.0f&&bl7==false)
         {
             Debug.Log("textchange");
             bl7=true;
             SetLyric();
         }
-        if(timer>=27.0f&&bl8==false)
+        if(timer>=30.0f&&bl8==false)
         {
             Debug.Log("textchange");
             bl8=true;
             SetLyric();
         }
-        if(timer>=30.0f&&bl9==false)
+        if(timer>=33.0f&&bl9==false)
         {
             Debug.Log("textchange");
             bl9=true;
             SetLyric();
         }
-        if(timer>=33.0f&&bl10==false)
+        if(timer>=36.0f&&bl10==false)
         {
             Debug.Log("textchange");
             bl10=true;
             SetLyric();
         }
-        if(timer>=36.0f&&bl11==false)
+        if(timer>=39.0f&&bl11==false)
         {
             Debug.Log("textchange");
             bl11=true;
